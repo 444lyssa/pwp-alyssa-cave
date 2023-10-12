@@ -5,20 +5,50 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="input.css" rel="stylesheet">
-    <title>photo booth</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css"/>
     <script src="https://kit.fontawesome.com/6ad13772e6.js" crossorigin="anonymous"></script>
+    <title>photobooth</title>
 </head>
 <body>
-<i class="fa-sharp fa-solid fa-camera-retro"></i>
-<h1>Photo Booth</h1>
-
-<div>
+<div class="flex justify-center my-8">
+    <i class="fa-sharp fa-solid fa-camera-retro fa-2xl"></i>
 </div>
 
-<div>
+<!--3 containers with links to contents of website-->
+<div class="container flex justify-center">
+    <button
+            type="button"
+            class="container box-content h-32 w-32 p-4 border-4">Events</button>
+
+    <button type="button"
+            class="container box-content h-32 w-32 p-4 border-4">Specials</button>
+
+    <button type="button"
+            class="container box-content h-32 w-32 p-4 border-4">Contact Us</button>
 </div>
 
+<!--Events-->
+<div class="grid grid-rows-3 grid-flow-col gap-4 justify-center">
+    <div>text</div>
+    <div>picture</div>
+    <div>picture</div>
+    <div>picture</div>
+    <div>text</div>
+</div>
+
+<!--Specials-->
+<div class="grid grid-rows-3 grid-flow-col gap-4 justify-center">
+    <div>text</div>
+    <div>picture</div>
+    <div>picture</div>
+    <div>picture</div>
+    <div>text</div>
+</div>
+
+<!--Contact us-->
 <div>
+
 </div>
 
 </body>
