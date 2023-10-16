@@ -12,45 +12,62 @@
     <title>photobooth</title>
 </head>
 <body>
-
-<i class="container justify-center fa-solid fa-burst fa-2xl" style="color: #f0fffc;"></i>
+<div class="container flex justify-center mt-8"
+     id="home">
+    <img src="../pictures/icons8-explosion-50.png" height="50" width="50"/>
+</div>
+<div class="container flex justify-center text-white mb-8">
+    <h3>Pixel Palace</h3>
+</div>
 
 <!--3 buttons with links to contents of website-->
-<div class="container flex place-content-center">
-    <a href="">
+<div class="container flex place-content-center mb-4">
+    <a href="#about us">
         <button
-            id="events"
-            type="button"
-            class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-gray-200 text-white border border-white hover:border-transparent">Events</button>
+             type="button"
+             class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-accent text-white border border-white hover:border-transparent">About us</button>
     </a>
 
-    <a href="">
+    <a href="#photo gallery">
         <button
-             id="specials"
-             type="button"
-             class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-gray-200 text-white border border-white hover:border-transparent">Specials</button>
+                type="button"
+                class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-primary text-white border border-white hover:border-transparent">Events</button>
     </a>
 
-    <a href="">
+    <a href="#contact">
         <button
-             id="contact us"
              type="button"
-             class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 bg-transparent hover:bg-gray-200 text-white border border-white hover:border-transparent">Contact Us</button>
+             class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 bg-transparent hover:bg-secondary text-white border border-white hover:border-transparent">Contact Us</button>
     </a>
 </div>
 
-<!--Events-->
-
 <!--Specials-->
-<div>
-    <div>
+<div id="about us" class="grid grid-cols-3">
+    <p class="justify-center text-white">Photobooths are a delightful addition to events because they offer a fun and interactive way for guests to capture memorable moments. They encourage social engagement and creativity, providing attendees with instant, tangible mementos that enhance the overall experience and make events more memorable.</p>
+    <p class="justify-center text-white">different event ideas</p>
+</div>
 
+<!--photos-->
+<div class="carousel rounded-box border-4 border-primary rounded-lg"
+     id="photo gallery">
+    <div class="carousel-item">
+        <img src="https://placehold.co/400" alt="celebrations">
+    </div>
+    <div class="carousel-item">
+        <img src="https://placehold.co/400" alt="celebrations">
+    </div>
+    <div class="carousel-item">
+        <img src="https://placehold.co/400" alt="celebrations">
+    </div>
+    <div class="carousel-item">
+        <img src="https://placehold.co/400" alt="celebrations">
     </div>
 </div>
 
 <!--Contact us-->
-<div>
-    <h3>Contact us</h3>
+<div id="contact us"
+     class="container border-2 border-secondary">
+
 </div>
 
 </body>
