@@ -1,4 +1,5 @@
 module.exports = {
-    //...
-    plugins: [require("daisyui")],
+    plugins: {
+        tailwindcss: { config: './tailwindcss-config.js' },
+    },
 }
