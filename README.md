@@ -1,1 +1,1 @@
-Pixel Palace, a company that provides a unique and simplistic way to capture moments at all kinds of events. 
+Pixel Palace, a company that provide unique and simplistic ways to capture moments at all kinds of events. 
