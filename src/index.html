@@ -16,7 +16,7 @@
 <!--LOGO-->
 <div class="container flex justify-center mt-8"
      id="home">
-    <img src="../images/icons8-explosion-50.png" height="50" width="50" alt="burst"/>
+    <img src="../public_html/documentation/images/logo.png" height="50" width="50" alt="burst"/>
 </div>
 <div class="container flex justify-center text-white mb-8">
     <h3>Pixel Palace</h3>
@@ -27,63 +27,50 @@
     <a href="#about us">
         <button
              type="button"
-             class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-primary text-white border border-white hover:border-transparent">About us</button>
+             class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-primary text-white border border-white hover:border-transparent rounded-lg">About us</button>
     </a>
 
-    <a href="#seasonal">
+    <a href="#events">
         <button
               type="button"
-              class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-accent text-white border border-white hover:border-transparent">Event
+              class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 mr-4 bg-transparent hover:bg-accent text-white border border-white hover:border-transparent rounded-lg">Events
         </button>
     </a>
+
     <a href="#contact">
         <button
               type="button"
-              class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 bg-transparent hover:bg-secondary text-white border border-white hover:border-transparent">Contact Us
+              class="container box-content h-32 w-32 p-4 border-t-2 border-r-2 border-b-8 border-l-2 bg-transparent hover:bg-secondary text-white border border-white hover:border-transparent rounded-lg">Contact Us
         </button>
     </a>
 </div>
 
-<!--EXAMPLES/MAIN IDEA-->
-<div id="about us" class="container flex bg-primary border-4 border-primary rounded-lg justify-center">
+<!--ABOUT US-->
+<div id="about us" class="container flex bg-primary border-4 border-primary rounded-lg">
     <div>
-        <p class="justify-center text-white">1 -text</p>
-    </div>
-    <div class="row-span-2">
-        <img src="../images/takingpicture.jpg" height="8192" width="5464" alt="taking picture"/>
-        <p class="justify-center text-white">2 -image spans through row 5</p>
+        <p class="rounded-lg text-white">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
+        <img class="rounded-lg" src="../public_html/documentation/images/polaroids.jpg" alt="polaroids"/>
     </div>
     <div>
-        <p class="justify-center text-white">3 -photo</p>
+        <img class="rounded-lg" src="../public_html/documentation/images/takingpicture.jpg" alt="taking picture"/>
     </div>
     <div>
-        <img src="../images/backdrop.jpg" alt="backdrop"/>
-        <p class="justify-center text-white">4 -photo</p>
-    </div>
-    <div>
-        <p class="justify-center text-white">5 -text</p>
+        <img class="rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
+        <p class="rounded-lg text-white">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
     </div>
 </div>
 
-<!--SEASONAL-->
-<div id="seasonal" class="grid grid-cols-3 grid-rows-2 bg-accent border-4 border-accent rounded-lg justify-center">
+<!--EVENTS-->
+<div id="events" class="container flex bg-accent border-4 border-accent rounded-lg">
     <div>
-        <p class="justify-center text-white">1</p>
-    </div>
-    <div class="row-span-2">
-        <img src="" alt="">
-        <p class="justify-center text-white">2</p>
+        <img class="rounded-lg" src="../public_html/documentation/images/polaroids.jpg" alt="polaroids"/>
+        <p class="text-justify rounded-lg text-white">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
     </div>
     <div>
-        <img src="" alt="">
-        <p class="justify-center text-white">3</p>
-    </div>
+        <img src="../public_html/documentation/images/happy.jpg" alt="pic"/></div>
     <div>
-        <img src="" alt="">
-        <p class="justify-center text-white">4</p>
-    </div>
-    <div>
-        <p class="justify-center text-white">5</p>
+        <p class="rounded-lg text-white">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
+        <img class="rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
     </div>
 </div>
 
@@ -104,12 +91,9 @@
             <textarea class="rounded-lg" id="msg" name="user_message"></textarea>
         </li>
         <li>
-            <button type="button">submit</button>
+            <button type="button">Send</button>
         </li>
     </ul>
 </form>
-
-
-
 </body>
 </html>
