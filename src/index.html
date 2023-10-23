@@ -17,66 +17,66 @@
 <div class="navbar bg-primary text-primary-content">
     <a href="#about us" class="btn btn-ghost normal-case text-xl">ABOUT US</a>
 </div>
-<div class="navbar bg-base-300">
+<div class="navbar bg-neutral text-neutral-content">
     <a href="#events" class="btn btn-ghost normal-case text-xl">EVENTS</a>
 </div>
-<div class="navbar bg-neutral text-neutral-content">
+<div class="navbar bg-base-300">
     <a href="#contact" class="btn btn-ghost normal-case text-xl">CONTACT US</a>
 </div>
 
 <!--ABOUT US-->
-<div id="about us" class="container flex mx-auto bg-primary border-4 border-primary rounded-lg">
+<section id="about us" class="container flex mx-auto bg-primary border-4 border-primary rounded-lg">
     <div>
         <div><p class="rounded-lg text-primary-content">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
         <img class="border-4 border-primary rounded-lg" src="../public_html/documentation/images/polaroids.jpg" alt="polaroids"/>
         </div>
     </div>
     <div>
-        <img class="border-4 border-primary rounded-lg" src="../public_html/documentation/images/takingpicture.jpg" alt="taking picture"/>
+        <img class="border-4 border-primary rounded-lg" src="../public_html/documentation/images/takingpicture.jpg" width=5464 height=8192 alt="taking picture"/>
     </div>
     <div>
         <img class="border-4 border-primary rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
         <p class="rounded-lg text-primary-content">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
     </div>
-</div>
+</section>
 
 <!--EVENTS-->
-<div id="events" class="container flex mx-auto bg-base-300 border-4 border-base-300 rounded-lg">
+<section id="events" class="container flex mx-auto bg-neutral text-neutral-content border-4 border-neutral rounded-lg">
     <div>
         <div>
-            <img class="border-4 border-base-300 rounded-lg" src="../public_html/documentation/images/polaroids.jpg" alt="polaroids"/>
-            <p class="rounded-lg text-primary-content">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
+            <img class="border-4 border-neutral rounded-lg" src="../public_html/documentation/images/couple.jpg" height="1414" width="2121" alt="couple"/>
+            <p class="rounded-lg text-neutral-content">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
         </div>
     </div>
     <div>
-        <img class="border-4 border-base-300 rounded-lg" src="../public_html/documentation/images/takingpicture.jpg" alt="taking picture"/>
+        <img src="../public_html/documentation/images/happy.jpg" height="6047" width="4022" alt="happy"/>
     </div>
     <div>
-        <p class="rounded-lg text-primary-content">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
-        <img class="border-4 border-base-300 rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
+        <p class="rounded-lg text-neutral-content">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
+        <img class="border-4 border-neutral rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
     </div>
-</div>
+</section>
 
-<!--CONTACT FORM-->
-
-<form id="contact" action="/my-handling-form-page" method="post" class="container flex mx-auto bg-secondary border-4 border-secondary rounded-lg text-white">
-    <ul>
-        <li>
-            <label for="name">Name:</label>
-            <input class="item-center rounded-lg" type="text" id="name" name="user_name"/>
-        </li>
-        <li>
-            <label for="mail">Email:</label>
-            <input class="rounded-lg" type="email" id="mail" name="user_email" />
-        </li>
-        <li>
-            <label for="msg">Message:</label>
-            <textarea class="rounded-lg" id="msg" name="user_message"></textarea>
-        </li>
-        <li>
-            <button type="button">Send</button>
-        </li>
-    </ul>
-</form>
+<!--CONTACT FORM ATTEMPT 2-->
+<section id="contact" class="container mx-auto bg-base-300">
+  <h2>Contact Us</h2>
+  <form action="#" class="space-y-4">
+        <div>
+            <label for="email" class="">Your email</label>
+            <input class="rounded-lg" type="email" id="email" name="user_email" />
+        </div>
+        <div>
+            <label for="subject" class="">Subject</label>
+            <input class="item-center rounded-lg" type="text" id="subject" name="user_name"/>
+        </div>
+        <div>
+            <label for="message" class="">Message:</label>
+            <textarea class="rounded-lg" id="message" name="user_message"></textarea>
+        </div>
+        <div>
+            <button type="button" class="">Send</button>
+        </div>
+  </form>
+</section>
 </body>
 </html>
