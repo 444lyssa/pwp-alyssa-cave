@@ -4,7 +4,40 @@
 
 
 /*about us*/
+.description {
+    display: flex;
+    flex-direction: column;
+}
 
+@media (min-width: 768px) {
+    /* For desktops */
+    .description {
+        flex-direction: row;
+    }
+}
+
+#title1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#description1 {
+    text-align: center;
+}
+
+#description2 {
+    text-align: center;
+}
+
+/*events*/
+.events {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    /* For desktops */
+}
 
 
 
@@ -12,6 +45,10 @@
 
 
 /*contact form*/
+#title3 {
+    font-size: 20px;
+    font-weight: bold;
+}
 #contact {
     text-align: center;
 }
