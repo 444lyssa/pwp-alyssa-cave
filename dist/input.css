@@ -3,3 +3,27 @@
 @tailwind utilities;
 
 
+/*about us*/
+
+
+
+
+
+
+
+/*contact form*/
+#contact {
+    text-align: center;
+}
+#name {
+    width: 40%;
+}
+#email {
+    width: 40%;
+}
+#subject{
+    width: 40%;
+}
+#message {
+    width: 50%;
+}
