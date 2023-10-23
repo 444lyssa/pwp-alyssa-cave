@@ -27,7 +27,7 @@
 <!--ABOUT US-->
 <section id="about us" class="container flex mx-auto bg-primary border-4 border-primary rounded-lg">
     <div>
-        <div><p class="rounded-lg text-primary-content">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
+        <div><p class="rounded-lg text-primary-content">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. </p>
         <img class="border-4 border-primary rounded-lg" src="../public_html/documentation/images/polaroids.jpg" alt="polaroids"/>
         </div>
     </div>
@@ -36,45 +36,49 @@
     </div>
     <div>
         <img class="border-4 border-primary rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
-        <p class="rounded-lg text-primary-content">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
+        <p class="rounded-lg text-primary-content">We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
     </div>
 </section>
 
 <!--EVENTS-->
 <section id="events" class="container flex mx-auto bg-neutral text-neutral-content border-4 border-neutral rounded-lg">
     <div>
-        <div>
-            <img class="border-4 border-neutral rounded-lg" src="../public_html/documentation/images/couple.jpg" height="1414" width="2121" alt="couple"/>
-            <p class="rounded-lg text-neutral-content">Pixel Palace is your premier photo booth company, turning your events into unforgettable experiences. We provide Polaroid cameras, an enchanting selection of backdrops, and a whimsical assortment of props, all to capture both classic snapshots and dynamic boomerang photos. Plus, we ensure you have digital copies of all your cherished memories, making every moment easily shareable and preserved at your special occasions.</p>
-        </div>
+        <p>
+            Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more.
+        </p>
     </div>
     <div>
-        <img src="../public_html/documentation/images/happy.jpg" height="6047" width="4022" alt="happy"/>
+        <img class="border-4 border-neutral rounded-lg" src="../public_html/documentation/images/happy.jpg" height="6047" width="4022" alt="happy"/>
     </div>
     <div>
-        <p class="rounded-lg text-neutral-content">Whether it's a wedding, corporate gathering, birthday bash, or any event in between, you'll find Pixel Palace adding a touch of charm and fun to your special day. Our photo booth, equipped with Polaroid cameras, boomerang photo capabilities, and a wide range of props, is perfect for weddings, company parties, birthdays, and more. We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.</p>
-        <img class="border-4 border-neutral rounded-lg" src="../public_html/documentation/images/backdrop.jpg" alt="backdrop"/>
+        <img
     </div>
+    <div>
+        <p>
+            We're here to make your moments memorable, ensuring smiles and laughter are captured for years to come.
+        </p>
+    </div>
+
 </section>
 
 <!--CONTACT FORM ATTEMPT 2-->
 <section id="contact" class="container mx-auto bg-base-300">
-  <h2>Contact Us</h2>
-  <form action="#" class="space-y-4">
+  <h2 class="text-2xl">CONTACT US</h2>
+  <form action="#" class="content-center space-y-4 text-primary-content">
         <div>
-            <label for="email" class="">Your email</label>
-            <input class="rounded-lg" type="email" id="email" name="user_email" />
+            <label for="email" class="block mb-2 text-sm text-primary-content">Your email</label>
+            <input class="rounded-lg" type="email" id="email" placeholder="example@gmail.com" required/>
         </div>
         <div>
-            <label for="subject" class="">Subject</label>
-            <input class="item-center rounded-lg" type="text" id="subject" name="user_name"/>
+            <label for="subject" class="block mb-2 text-sm text-primary-content">Subject</label>
+            <input class="rounded-lg" type="text" id="subject" placeholder="event, question etc." required/>
         </div>
         <div>
-            <label for="message" class="">Message:</label>
-            <textarea class="rounded-lg" id="message" name="user_message"></textarea>
+            <label for="message" class="block mb-2 text-sm text-primary-content">Your message</label>
+            <textarea class="rounded-lg" id="message" placeholder="type your message here"></textarea>
         </div>
         <div>
-            <button type="button" class="">Send</button>
+            <button type="button" class="py-3 px-5 text-sm font-medium text-center bg-accent hover:bg-secondary rounded-lg">Send</button>
         </div>
   </form>
 </section>
