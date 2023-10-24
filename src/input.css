@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+#logo {
+   font-size: 35px;
+   font-weight: bold;
+   text-align: center;
+
+}
+
 /*about us*/
 #about {
-
     #title1 {
         font-size: 20px;
         font-weight: bold;
