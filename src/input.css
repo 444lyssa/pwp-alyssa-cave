@@ -2,31 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/*nav bar*/
+#navbar {
+    z-index: 1;
+}
 
 /*about us*/
-.description {
-    display: flex;
-    flex-direction: column;
-}
+#about {
 
-@media (min-width: 768px) {
-    /* For desktops */
-    .description {
-        flex-direction: row;
+    #title1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
     }
-}
 
-#title1 {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-#description1 {
-    text-align: center;
-}
-
-#description2 {
-    text-align: center;
+    #description1 {
+        text-align: center;
+    }
 }
 
 /*events*/
@@ -36,13 +28,8 @@
 }
 
 @media (min-width: 768px) {
-    /* For desktops */
+    /* desktops */
 }
-
-
-
-
-
 
 /*contact form*/
 #title3 {
